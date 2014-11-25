@@ -9,7 +9,7 @@ This version of the application can be packaged and deployed as a Docker contain
         
 2. To run the container run:
 			
-		sudo docker run -d -p 80:80 -e FIBONACCI_BE_ADDRESS="10.0.0.14:5000" --name dg-fibonacci-fe dg-fibonacci-fe
+		sudo docker run -d -p 80:80 -e FIBONACCI_BE_ADDRESS="<app-ip>:5000" --name dg-fibonacci-fe dg-fibonacci-fe
 
 3. To access:
 		
